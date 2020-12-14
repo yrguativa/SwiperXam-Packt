@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using SwiperXam_Packt.Controls;
 using Xamarin.Forms;
 
 namespace SwiperXam_Packt
@@ -13,6 +8,8 @@ namespace SwiperXam_Packt
         public MainPage()
         {
             InitializeComponent();
+            MainGrid.Children.Add(new SwiperControl());
+
         }
     }
 }
